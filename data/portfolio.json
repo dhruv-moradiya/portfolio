@@ -1,23 +1,22 @@
 {
   "personal": {
     "name": "Dhruv Moradiya",
-    "shortName": "Dhruv",
+    "shortName": "DM",
     "initials": "DM",
-    "tagline": "Full Stack Developer & Designer",
+    "tagline": "Writing code that ships, not code that sits.",
     "bio": "Full Stack Developer & Designer. Building products that matter.",
     "aboutBio": "Passionate full-stack developer with a keen eye for design. Building seamless digital experiences with modern technologies. Love working on products that make a difference. Always learning, always building.",
-    "location": "Your City",
+    "location": "Surat, India",
     "status": "Available",
-    "email": "hello@yourname.com",
+    "email": "dmoradiya443@gmail.com",
     "resumeUrl": "/resume.pdf",
-    "profileImage": "https://i.pinimg.com/736x/62/87/80/628780181f7b3e3e3661768072a9bda7.jpg",
-    "buyMeCoffeeUrl": "https://buymeacoffee.com"
+    "profileImage": "https://i.pinimg.com/736x/62/87/80/628780181f7b3e3e3661768072a9bda7.jpg"
   },
 
   "seo": {
-    "siteUrl": "https://yourname.com",
-    "title": "Your Name | Full Stack Developer & Designer",
-    "description": "Personal portfolio of Your Name - A Full Stack Developer & Designer crafting exceptional digital experiences with modern technologies.",
+    "siteUrl": "https://portfolio-puce-six-16.vercel.app/",
+    "title": "Dhruv Moradiya | Full Stack Developer & Designer",
+    "description": "Personal portfolio of Dhruv Moradiya - A Full Stack Developer & Designer crafting exceptional digital experiences with modern technologies.",
     "keywords": [
       "Full Stack Developer",
       "Web Developer",
@@ -26,48 +25,35 @@
       "Next.js",
       "TypeScript"
     ],
-    "ogImage": "https://yourname.com/og-image.jpg",
-    "twitterHandle": "@yourhandle"
+    "ogImage": "https://yourname.com/og-image.jpg"
   },
 
   "socialLinks": [
-    {
-      "name": "X",
-      "href": "https://x.com/yourhandle"
-    },
     {
       "name": "LinkedIn",
       "href": "https://www.linkedin.com/in/dhruv-moradiya-609aa22b8/"
     },
     {
       "name": "GitHub",
-      "href": "https://github.com/yourusername"
-    },
-    {
-      "name": "Dribbble",
-      "href": "https://dribbble.com/yourprofile"
-    },
-    {
-      "name": "YouTube",
-      "href": "https://youtube.com/@yourchannel"
+      "href": "https://github.com/dhruv-moradiya"
     }
   ],
 
   "contactLinks": [
     {
       "name": "Email",
-      "value": "hello@yourname.com",
-      "href": "mailto:hello@yourname.com"
+      "value": "dmoradiya443@gmail.com",
+      "href": "mailto:dmoradiya443@gmail.com"
+    },
+    {
+      "name": "Phone",
+      "value": "+91 9974951802",
+      "href": "tel:+919974951802"
     },
     {
       "name": "LinkedIn",
       "value": "Connect with me",
-      "href": "https://linkedin.com/in/yourprofile"
-    },
-    {
-      "name": "Twitter",
-      "value": "@yourhandle",
-      "href": "https://x.com/yourhandle"
+      "href": "https://www.linkedin.com/in/dhruv-moradiya-609aa22b8/"
     }
   ],
 
@@ -85,8 +71,8 @@
       "name": "Backend",
       "technologies": [
         { "name": "Node.js", "color": "#339933" },
-        { "name": "Python", "color": "#3776AB" },
-        { "name": "PostgreSQL", "color": "#336791" },
+        { "name": "Express.js", "color": "#000000" },
+        { "name": "Fastify", "color": "#000000" },
         { "name": "MongoDB", "color": "#47A248" }
       ]
     },
@@ -94,16 +80,15 @@
       "name": "UI/Design",
       "technologies": [
         { "name": "Tailwind", "color": "#06B6D4" },
-        { "name": "Figma", "color": "#F24E1E" },
-        { "name": "Framer", "color": "#0055FF" }
+        { "name": "Figma", "color": "#F24E1E" }
       ]
     },
     {
       "name": "Tools & Libraries",
       "technologies": [
         { "name": "Git", "color": "#F05032" },
-        { "name": "Docker", "color": "#2496ED" },
-        { "name": "AWS", "color": "#FF9900" },
+        { "name": "Firebase", "color": "#FFCA28" },
+        { "name": "Shadcn UI", "color": "#000000" },
         { "name": "Vercel", "color": "#000000" }
       ]
     }
@@ -111,56 +96,35 @@
 
   "experience": [
     {
-      "title": "Senior Full Stack Developer",
-      "company": "Tech Corp",
-      "period": "2022 - Present",
-      "description": "Leading development of scalable web applications using React, Next.js, and Node.js.",
-      "technologies": ["React", "Next.js", "TypeScript", "PostgreSQL"]
-    },
-    {
-      "title": "Full Stack Developer",
-      "company": "StartupXYZ",
-      "period": "2020 - 2022",
-      "description": "Built and maintained multiple client-facing applications with modern tech stack.",
-      "technologies": ["Vue.js", "Node.js", "MongoDB", "AWS"]
-    },
-    {
       "title": "Frontend Developer",
-      "company": "Digital Agency",
-      "period": "2019 - 2020",
-      "description": "Developed interactive web experiences focused on performance and accessibility.",
-      "technologies": ["React", "JavaScript", "SASS"]
+      "company": "HVG Infotech",
+      "period": "2024 - Present",
+      "description": "Leading development of scalable web applications using React, Next.js, and Tailwind CSS.",
+      "technologies": ["React", "Next.js", "TypeScript", "Tailwind"]
     }
   ],
 
   "projects": [
     {
-      "title": "E-Commerce Platform",
-      "description": "Full-featured e-commerce platform with cart and payment integration.",
-      "technologies": ["Next.js", "Stripe", "PostgreSQL"],
-      "github": "https://github.com/yourusername/ecommerce",
-      "demo": "https://ecommerce-demo.com"
+      "title": "Story Chain",
+      "description": "What if GitHub and Wattpad had a baby? A collaborative storytelling platform where users build narratives together, one chapter at a time.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "Fastify",
+        "TypeScript",
+        "Tailwind",
+        "Shadcn UI"
+      ],
+      "github": "https://github.com/dhruv-moradiya/storychain-fe",
+      "demo": "https://storychain-three.vercel.app/"
     },
     {
-      "title": "Task Management App",
-      "description": "Real-time collaborative task management with team features.",
-      "technologies": ["React", "Node.js", "Socket.io"],
-      "github": "https://github.com/yourusername/taskapp",
-      "demo": "https://taskapp-demo.com"
-    },
-    {
-      "title": "AI Content Generator",
-      "description": "AI-powered tool for generating blog posts and social media content.",
-      "technologies": ["Python", "OpenAI", "FastAPI"],
-      "github": "https://github.com/yourusername/ai-content",
-      "demo": null
-    },
-    {
-      "title": "Portfolio Template",
-      "description": "Modern, customizable portfolio template for developers.",
-      "technologies": ["Next.js", "Tailwind", "Framer Motion"],
-      "github": "https://github.com/yourusername/portfolio",
-      "demo": "https://portfolio-demo.com"
+      "title": "The DM Store",
+      "description": "A modern shopping experience with real-time cart updates, secure checkout, and seamless user authentication.",
+      "technologies": ["React", "Firebase", "Razorpay", "Tailwind"],
+      "github": "https://github.com/dhruv-moradiya/The-DM-Store",
+      "demo": "https://the-dm-store.netlify.app/"
     }
   ]
 }

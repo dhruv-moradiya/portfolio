@@ -1,9 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { HugeiconsIcon } from "@hugeicons/react";
-import { Coffee01Icon } from "@hugeicons/core-free-icons";
 import { personal } from "@/lib/portfolio";
+import { motion } from "framer-motion";
 
 export function About() {
   return (
@@ -15,11 +13,13 @@ export function About() {
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-3">About</h2>
+          <h2 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-3">
+            About
+          </h2>
           <p className="text-sm text-foreground/90 leading-relaxed mb-4">
             {personal.aboutBio}
           </p>
-          <motion.a
+          {/* <motion.a
             href={personal.buyMeCoffeeUrl}
             target="_blank"
             rel="noopener noreferrer"
@@ -28,7 +28,7 @@ export function About() {
           >
             <HugeiconsIcon icon={Coffee01Icon} size={14} />
             Buy me a coffee
-          </motion.a>
+          </motion.a> */}
         </motion.div>
       </div>
     </section>
